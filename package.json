@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "@prisma/client": "^6.5.0",
+    "pg": "^8.14.1",
+    "prisma": "^6.5.0"
+  },
+  "name": "my-prisma-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
