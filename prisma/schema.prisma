@@ -16,7 +16,7 @@ datasource db {
 model products {
   id String @id @default(uuid())
   name String
-  price Int
+  price Float
   stock Int
 }
 
@@ -28,7 +28,7 @@ model users {
 
 model orders {
   id String @id @default(uuid())
-  user_id Int
-  product_id Int
+  user_id String
+  product_id String
   quantity Int
 }
